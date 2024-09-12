@@ -116,7 +116,7 @@ int main()
     //? strcspn -remove "\n"
     char c[5];
     fgets(c,sizeof(c),stdin);
-    c[strcspn(sizeof(c),"\n")]=c;
+    c[strcspn(c,"\n")]='\0';
     printf("%s",c);
 
     return 0;
