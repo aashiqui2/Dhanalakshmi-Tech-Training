@@ -1,6 +1,6 @@
 1.Array based Program
 2.two dimentional array and program
-3.string and predined methods
+3.string and predefined methods
  * strcmp
  * strcpy
  * strcat
