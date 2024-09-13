@@ -1,4 +1,6 @@
 #include <stdio.h>
+// #include<string.h>
+#include<ctype.h>
 int main()
 {
     //! program 1
@@ -94,24 +96,43 @@ int main()
     // }
 
     //! program 7
-    char str[10];
-    int i = 0;
-    while (1)
-    {
-        char c;
-        scanf("%c", &c);
-        if (c == ' ')
-        {
-            break;
-        }
-        else
-        {
-            str[i] = c;
-            i++;
-        }
-    }
+    // char str[10];
+    // int i = 0;
+    // while (1)
+    // {
+    //     char c;
+    //     scanf("%c", &c);
+    //     if (c == '\n')
+    //     {
+    //         break;
+    //     }
+    //     else
+    //     {
+    //         str[i] = c;
+    //         i++;
+    //     }
+    // }
     // puts(str);
-    printf("%s",str);
+    // printf("%s",str);
 
+    //! program 8
+    char c[]="HeLlO";
+    char c1[100];
+    int i=0;
+    while(c[i]!='\0')
+    {
+        if(c[i]>=65 && c[i]<=90)
+        {
+            c1[i]=tolower(c[i]);
+        }
+        else if(c[i]>=97 && c[i]<=122){
+            // c1[i]+=c[i]-32;
+             c1[i]=toupper(c[i]);
+        }
+        i++;
+    }
+    c1[i]='\0';
+    // printf("%s",c1);
+    puts(c1);
     return 0;
 }

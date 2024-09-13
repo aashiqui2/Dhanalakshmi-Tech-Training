@@ -11,11 +11,14 @@
    input:s1="hello" s2="world"
    output:s1="world s2="hello"
 
-5.Input: Hello
+5.Input: hello
   output:HELLO
   
   Input:HELLO
   Ouput:hello
+
+  Input:HeLlO
+  Ouput:hElLo
 
 6.Reverse a string?
   Input: hello
