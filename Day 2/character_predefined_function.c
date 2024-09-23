@@ -20,6 +20,4 @@ int main()
     c = 'D';
     printf("tolower('%c') = %c\n", c, tolower(c));
     return 0;
-
-    return 0;
 }

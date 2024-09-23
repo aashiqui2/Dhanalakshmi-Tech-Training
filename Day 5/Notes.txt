@@ -1,0 +1,10 @@
+1.Array creation
+2.string creation
+3.pointers
+4.function
+5.structure
+6.union
+7.dynamic memory allocation
+8.storage classes
+9.memory layout
+10.file handling
