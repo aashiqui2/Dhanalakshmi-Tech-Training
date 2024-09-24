@@ -1,0 +1,4 @@
+1.file handling
+2.reading files using getc,fgetc,fgets,fscanf.
+3.copying using fgetc and fputc.
+4.writing using fprintf,fputc,fputs.
