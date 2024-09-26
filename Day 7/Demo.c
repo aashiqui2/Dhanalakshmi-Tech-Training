@@ -82,6 +82,16 @@ long long int fastExpo(long long int base, long long  int power)
     }
     return ans;
 }
+void findEvenOdd(int n)
+{
+    if(n&1==1)
+    {
+        printf("ODD");
+    }
+    else{
+        printf("Even");
+    }
+}
 
 int main()
 {
@@ -93,8 +103,9 @@ int main()
     // int result = clearBitInRange(13, 0,2);
     // int result = countone(13);
     // decimalToBinary(13);
-    long long int result = fastExpo(2,32);
-    printf("%lld", result);
+    // long long int result = fastExpo(2,32);
+    // printf("%lld", result);
+    findEvenOdd(4);
 
 
     return 0;
