@@ -68,29 +68,47 @@ void decimalToBinary(int n)
         mask = mask >> 1;
     }
 }
-long long int fastExpo(long long int base, long long  int power)
+long long int fastExpo(long long int base, long long int power)
 {
-   long long int ans = 1;
+    long long int ans = 1;
     while (power > 0)
     {
-        int lastbit=power & 1;
-        if(lastbit){
-            ans=ans*base;
+        int lastbit = power & 1;
+        if (lastbit)
+        {
+            ans = ans * base;
         }
-        base=base*base;
-        power=power>>1;
+        base = base * base;
+        power = power >> 1;
     }
     return ans;
 }
 void findEvenOdd(int n)
 {
-    if(n&1==1)
+    if (n & 1 == 1)
     {
         printf("ODD");
     }
-    else{
+    else
+    {
         printf("Even");
     }
+}
+int powerofTWO(int n)
+{
+    // if (n == 0)
+    // {
+    //     return 0;
+    // }
+
+    // while (n % 2 == 0)
+    // {
+    //     n = n / 2;
+    // }
+
+    // return n == 1;//1==1
+
+    return (n && !(n & (n - 1)));
 }
 
 int main()
@@ -105,8 +123,16 @@ int main()
     // decimalToBinary(13);
     // long long int result = fastExpo(2,32);
     // printf("%lld", result);
-    findEvenOdd(4);
-
+    // findEvenOdd(4);
+    int result = powerofTWO(4); // 1
+    if (result)
+    {
+        printf("YES");
+    }
+    else
+    {
+        printf("NO");
+    }
 
     return 0;
 }
