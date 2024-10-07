@@ -1,6 +1,6 @@
 # Problem
 1. Roman To Int LC - 13 -Done
-2. Merge Alternatively - 905
+2. Merge Alternatively - Done
 3. Parity sort - 905 -Done
 4. BestTime To sell the stock - 121 -Done
 5. Count BIts- 338 -Done
@@ -16,4 +16,7 @@
 15. Counting Elements Greater Than All Prior Elements.
 16. Distinct Sum. -Done
 17. Move Zero to left.  -Done
-18. Largest Postitive exist with negative -2441
+18. Largest Postitive exist with negative -2441 -Done
+19. Length of the last word. LC- 58
+20. Single Number LC -136 -Done
+21. Majority Element LC -169
