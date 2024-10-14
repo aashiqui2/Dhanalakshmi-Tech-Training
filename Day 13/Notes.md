@@ -26,7 +26,7 @@
 
 7. String Reverse
    Input: Hi My Name is Hello 
-   Output:Hello is Name My Hi 
+   Output: Hello is Name My Hi 
 
 8. Occurence of the character in a string
    Input:aabbccd
@@ -45,3 +45,7 @@
 11. Rotate string lc-796
     Input: "abcdef"  "cdefab"
     Output: true
+
+12. First Letter Appers twice LC -2351
+    Input: "abccdeaaf"
+    Output: "c"
